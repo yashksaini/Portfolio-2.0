@@ -1,0 +1,43 @@
+.allBlogs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 32px 0;
+}
+.card {
+  width: 400px;
+  max-width: 100%;
+  padding: 12px 20px;
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background-color: var(--card);
+}
+
+.card h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-top: 12px;
+  color: var(--dark);
+}
+.card p {
+  font-size: 16px;
+  color: var(--light);
+  line-height: 1.5;
+  margin: 12px 0;
+}
+.card b {
+  margin-left: 12px;
+}
+.card a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  height: 36px;
+  font-size: 20px;
+  color: var(--blue);
+}
